@@ -1,22 +1,25 @@
-
 public class dz {
-    public static void main(String[] args){
+    public static int[] printArray(int[] list) 
+    {
         //int N = 10;
-        int[] list = new int[10];
+         list = new int[10];
     
-        for(int i = 0; i < list.length; i++) {
+        for(int i = 0; i < list.length; i++) 
+        {
           double randomNumber = (Math.random() * 100);
           list[i] = (int)randomNumber;
-      }
-      printArray(list);
-      //sort(list);
-      //System.out.println();
-      //printArray(list);       
-      }
-    
-      public static void printArray(int[] list) {
-        for(double u: list) {
-            System.out.printf("%2.2f%s", u, " ");
         }
-      }}
+        for(double u: list) 
+       {
+        System.out.printf("%2.2f%s", u, " ");
+       }
+       return list;
+    }
+    {
+    }
+}
 
+        
+
+        
+      
